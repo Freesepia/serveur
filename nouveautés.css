@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+.menu{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.menu a {
+    color: white;
+}
+.menu .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+.menu .nav-links ul {
+    display: flex;
+}
+.menu .nav-links ul li {
+    margin: 0 25px;
+}
+.menu .nav-links ul li a.active  {
+    color: red;
+    font-weight: 600;
+
+}
+.logoimg img{
+    float: left;
+    width: 4%;
+    margin-top: 20px;
+    margin-left: 46%;
+}
