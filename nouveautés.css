@@ -45,3 +45,20 @@ body{
 .ip {
     color: white;
 }
+.fond{
+
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.n1{
+    width: 100%;
+    height: 300px;
+    background-color: darkmagenta;
+}
+.n1img{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
+.n1img img
